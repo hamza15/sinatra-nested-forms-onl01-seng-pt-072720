@@ -18,8 +18,9 @@ module FormsLab
  
       @ship1 =Ship.new(params["pirate"]["ships"][0]["name"], params["pirate"]["ships"][0]["type"], params["pirate"]["ships"][0]["booty"])
       @ship2 =Ship.new(params["pirate"]["ships"][1]["name"], params["pirate"]["ships"][1]["type"], params["pirate"]["ships"][1]["booty"])
+      erb :"pirates/show"
     end
-    erb :"pirates/show"
+
     
   end
 end
