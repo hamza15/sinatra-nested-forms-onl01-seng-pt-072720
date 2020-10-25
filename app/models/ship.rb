@@ -8,7 +8,7 @@ class Ship
     @name = params[:name]
     @weight = params[:type]
     @height = params[:height]
-    @@all < self
+    @@all << self
   end
   
   def self.all
