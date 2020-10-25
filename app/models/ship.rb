@@ -4,7 +4,7 @@ class Ship
   
   @@all = []
   
-  def initialize(name:, weight:, height:)
+  def initialize(name:, type:, booty_attributes:)
     @name = name
     @weight = weight
     @height = height
